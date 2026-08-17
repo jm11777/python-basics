@@ -1,0 +1,21 @@
+a={23,4,4,22,2,}
+b={22,54,11,34}
+print(f'A: {a}')
+print(f'B: {b}')
+print(f'AUB{a.union(b)}')
+print(f'difference A-B {a.difference(b)}')
+print(f'difference B-A {b.difference(a)}')
+print(f'Symmetric Difference {a.symmetric_difference(b)}')
+numbers=[10,20,30,40]
+print(numbers)
+numbers.append(85)
+print(numbers)
+numbers.insert(2,102)
+print(numbers)
+print(len(numbers))
+print(max(numbers))
+print(min(numbers))
+numbers.sort()
+print(numbers)
+numbers.reverse()
+print(numbers)
